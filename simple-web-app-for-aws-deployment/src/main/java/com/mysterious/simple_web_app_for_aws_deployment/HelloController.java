@@ -55,7 +55,7 @@ public class HelloController {
         long usedMemory = totalMemory - freeMemory;
 
         return "Memory Info:\n" +
-                "Total Memory: " + totalMemory + " MB\n" +
+                "Total Memory: " + totalMemory + " MB \n"+
                 "Free Memory: " + freeMemory + " MB\n" +
                 "Used Memory: " + usedMemory + " MB";
     }
